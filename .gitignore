@@ -2,3 +2,6 @@
 *.bak
 .idea/
 __pycache__/
+*.log
+*.csv
+*.png
