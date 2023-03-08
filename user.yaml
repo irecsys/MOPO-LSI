@@ -1,0 +1,38 @@
+# client inputs
+client_option: Moderate
+
+client_preferences:
+  climate: [ 0.23, 'high' ]
+  environment: [ 0.21, 'high' ]
+  violence: [ 0.05, 'moderate' ]
+  weapons: [ 0.32, 'high' ]
+  human: [ 0.04, 'high' ]
+  resources: [ 0.1, 'low' ]
+  market: [ 0.05, None ]
+
+# simulated client inputs for MOEA methods
+################## Example 1: MOEAProblem
+preloaded_moea_results: ~
+# preloaded_moea_results: out/NSGA2-Feb-22-2023_13-43-21.pkl
+client_pos_esg: ['clean_energy', 'wellbeing']
+client_neg_esg: ['tobacco', 'arms']
+client_preferences_moea: # these preferences are used to select a single optimal solution
+  pos_esg: 0.25
+  neg_esg: 0.24
+  market: 0.02
+  clean_energy: 0.1225
+  wellbeing: 0.1225
+  tobacco: 0.1225
+  arms: 0.1225
+
+################## Example 2: MyProblem
+#preloaded_moea_results: None
+#client_pos_esg: []
+#client_neg_esg: []
+#client_preferences_moea: # these preferences are used to select a single optimal solution
+#  pos_esg: 0.23
+#  neg_esg: 0.23
+#  market: 0.05
+
+
+

@@ -1,0 +1,6 @@
+# params for scalarization methods only
+scalar_problem_name: ScalarProblem
+objectives_pos_neg: [True, True] # turn on optimization for PosESG, NegESG
+ecos_eps: 1e-5
+ecos_max_iter: 1000
+ecos_verbose: False

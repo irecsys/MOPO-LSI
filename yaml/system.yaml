@@ -1,0 +1,55 @@
+seed: 2023
+model: NSGA2 # options: WeightedSum, NSGA2, SMSEMOA, AGEMOEA2
+
+# input data
+dataset: SampleData
+data_funds: funds.csv
+data_cov_matrix: cov_matrix.csv
+data_bmk: asset_allocation.csv
+
+# outputs
+path_outputs: out/ # save logs and fund allocations
+output_analysis: True
+output_funds_top_n: 10
+
+# general arguments
+options: ['Conservative', 'Moderate', 'Aggressive']
+
+pos_esg_dims: # format: dim:category
+  clean_energy: climate
+  energy_efficient: environment
+  recycle_material: resources
+  wellbeing: human
+  human_development: human
+
+neg_esg_dims:  # format: dim:category
+  carbon: climate
+  thermal_coal: climate
+  palm_oil: environment
+  ocean_pollution: environment
+  tobacco: violence
+  alcohol: violence
+  drugs: violence
+  arms: weapons
+  military: weapons
+  war_support: weapons
+
+# constraints
+weight_init_up_lim: 0.1995
+weight_init_low_lim: 0
+weight_final_low_lim: 0.001
+
+TE_cap: 0.009 # TE sanity check
+adj_ratio: 1 # TE forecast adjustment ratio
+
+esg_norm_up_lim: -1 # up bound for ESG normalizations; it is TE**2, if it is set <= 0
+esg_norm_low_lim: 1e-100
+
+dev_asset_alloc:  # deviation from benchmark allocation
+  stock_us: 0.05
+  stock_dm_xus: 0.05
+  stock_em: 0.05
+  bond_us: 0.05
+  bond_xus: 0.05
+  cash: 0.05
+

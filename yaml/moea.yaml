@@ -1,0 +1,13 @@
+# params for MOEA methods only
+moea_problem_name: MOEAProblem
+n_threads: 8
+n_population: 100
+n_offsprings: 100
+n_generations: 100
+moea_verbose: True
+
+# output setting
+optimal_selection: PW # option: ASF, PW
+output_visualizations: True
+output_visualize_dims: ['pos_esg', 'neg_esg'] # two dimensions for visualizations, e.g., POS, NEG, TE, climate_change, healthy_ecosystems, etc.
+output_hypervolume_visualizations: False # running extremely slowly, if it's turned on
