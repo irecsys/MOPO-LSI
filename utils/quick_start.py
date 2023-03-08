@@ -36,6 +36,7 @@ def run_optimization(config_file_list=None):
     filename = os.path.splitext(log_filepath)[0]
 
     logger.info(config)
+    logger.info('MOPO-LSI version ' + str(config['version']))
 
     # load dataset
     timer_begins = time.time()

@@ -1,5 +1,8 @@
 seed: 2023
-model: NSGA2 # options: WeightedSum, NSGA2, SMSEMOA, AGEMOEA2
+version: 1.0
+
+# select a model
+model: WeightedSum # options: WeightedSum, NSGA2, SMSEMOA, AGEMOEA2
 
 # input data
 dataset: SampleData
