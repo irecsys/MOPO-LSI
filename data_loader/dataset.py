@@ -24,7 +24,7 @@ class Dataset(object):
                 * config (Config): configurations loaded from YAML file
         """
         self.config = config
-        self.config["path_inputs"] = 'data/' + config['dataset'] + '/'
+        self.config["path_inputs"] = config['data_path'] + config['dataset'] + '/'
         self.logger = getLogger()
 
         # List of class attributes: individual variables

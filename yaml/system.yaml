@@ -6,6 +6,7 @@ model: WeightedSum # options: WeightedSum, NSGA2, SMSEMOA, AGEMOEA2
 
 # input data
 dataset: SampleData
+data_path: data/
 data_funds: funds.csv
 data_cov_matrix: cov_matrix.csv
 data_bmk: asset_allocation.csv
