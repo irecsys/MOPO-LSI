@@ -5,7 +5,7 @@
 [![python](https://badges.aleen42.com/src/python.svg)](https://badges.aleen42.com/src/python.svg)
 
 ## Sponsors
-+ Morningstar, Inc., USA
++ [Morningstar, Inc., USA](https://www.morningstar.com/)
 
 ## License
 [MIT License](./LICENSE)
