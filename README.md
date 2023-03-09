@@ -4,8 +4,9 @@
 [![License](https://img.shields.io/badge/License-MIT-orange.svg)](./LICENSE)
 [![python](https://badges.aleen42.com/src/python.svg)](https://badges.aleen42.com/src/python.svg)
 
-## Sponsors
+## Sponsors & Collaborators
 + [Morningstar, Inc., USA](https://www.morningstar.com/)
++ [Illinois Institute of Technology, USA](https://www.iit.edu/)
 
 ## License
 [MIT License](./LICENSE)
