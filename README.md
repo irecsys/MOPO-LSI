@@ -5,7 +5,7 @@
 [![python](https://badges.aleen42.com/src/python.svg)](https://badges.aleen42.com/src/python.svg)
 
 ## References
-+ Yong Zheng, Kumar Neelotpal Shukla, Jasmine Xu, David (Xuejun) Wang, Michael O'Leary. "MOPO-LSI: An Open-Source Multi-Objective Portfolio Optimization Library for Sustainable Investments", Software Impacts, Elsevier, 2023
++ Yong Zheng, Kumar Neelotpal Shukla, Jasmine Xu, David (Xuejun) Wang, Michael O'Leary. "[MOPO-LSI: An Open-Source Multi-Objective Portfolio Optimization Library for Sustainable Investments](https://doi.org/10.1016/j.simpa.2023.100499)", Software Impacts, Elsevier, 2023
 
 ## Sponsors & Collaborators
 + [Morningstar, Inc., USA](https://www.morningstar.com/)
