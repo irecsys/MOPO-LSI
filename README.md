@@ -3,6 +3,8 @@
 
 [![License](https://img.shields.io/badge/License-MIT-orange.svg)](./LICENSE)
 [![python](https://badges.aleen42.com/src/python.svg)](https://badges.aleen42.com/src/python.svg)
+[![Citation Badge](https://api.juleskreuer.eu/citation-badge.php?doi=10.1016/j.simpa.2023.100499)](https://scholar.google.com/citations?view_op=view_citation&hl=en&citation_for_view=0FENWMcAAAAJ:nRpfm8aw39MC)
+[![DOI:10.1007/978-3-319-76207-4_15](https://zenodo.org/badge/DOI/10.1016/j.simpa.2023.100499.svg)](https://doi.org/10.1016/j.simpa.2023.100499)
 
 ## References
 + Yong Zheng, Kumar Neelotpal Shukla, Jasmine Xu, David (Xuejun) Wang, Michael O'Leary. "[MOPO-LSI: An Open-Source Multi-Objective Portfolio Optimization Library for Sustainable Investments](https://doi.org/10.1016/j.simpa.2023.100499)", Software Impacts, Elsevier, 2023
