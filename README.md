@@ -15,6 +15,10 @@
 + [Morningstar, Inc., USA](https://www.morningstar.com/)
 + [Illinois Institute of Technology, USA](https://www.iit.edu/)
 
+## Version History
+v1.5, upcomining, 3D visualizations added
+v1.0, 02/2023, initial release
+
 ## License
 [MIT License](./LICENSE)
 
