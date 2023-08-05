@@ -17,7 +17,7 @@
 
 ## Version History
 + v1.5, upcomining, 3D visualizations added
-+ v1.0, 02/2023, initial release
++ v1.0, 2023/02, initial release
 
 ## License
 [MIT License](./LICENSE)
